@@ -3,15 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create review</title>
-    
 </head>
 <body>
+    <!--Ссылки на страницы просмиотра списка отзывов и отзыва по id -->
     <a href = "http://reviewonthemap/showReviews.php">Список отзывов</a></br>
     <a href = "http://reviewonthemap/viewReview.php">Одиночные отзывы</a></br>
+    <!-- Форма добавления отзыва-->
     <form action="api/main.php" method="POST">
        <lable>Ссылка на фото</lable>
        <input type="text" size="20" name="link" required></br> 
-       
        <lable>Введите имя</lable></br>
        <input type="text" size="20" name="name" maxlength="50" required></br>
        <lable>Напишите отзыв</lable></br>
